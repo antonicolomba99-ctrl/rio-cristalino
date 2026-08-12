@@ -1429,63 +1429,62 @@ document.addEventListener("DOMContentLoaded", function () {
                     "5493544448487";
 
 
-                const mensajeWhatsApp =
+         const mensajeWhatsApp =
+    "🚌 *RÍO CRISTALINO*\n" +
+    "━━━━━━━━━━━━━━━━━━━━\n\n" +
 
-                    "🚌 *NUEVA RESERVA - RÍO CRISTALINO*\n\n" +
+    "🎟️ *NUEVA RESERVA*\n\n" +
 
-                    "🎟️ *Evento:* " +
-                    (
-                        eventoSeleccionado.titulo ||
-                        eventoSeleccionado.nombre
-                    ) +
-                    "\n\n" +
+    "🎵 *Evento:* " +
+    (
+        eventoSeleccionado.titulo ||
+        eventoSeleccionado.nombre
+    ) +
+    "\n" +
 
-                    "📅 *Fecha:* " +
-                    fechaReserva +
-                    "\n\n" +
+    "📅 *Fecha:* " +
+    fechaReserva +
+    "\n" +
 
-                    "📍 *Lugar:* " +
-                    eventoSeleccionado.lugar +
-                    "\n\n" +
+    "📍 *Lugar:* " +
+    eventoSeleccionado.lugar +
+    "\n\n" +
 
-                    "🚌 *Salida:* " +
-                    eventoSeleccionado.salida +
-                    "\n\n" +
+    "👤 *DATOS DEL PASAJERO*\n\n" +
 
-                    "🔄 *Regreso:* " +
-                    eventoSeleccionado.regreso +
-                    "\n\n" +
+    "👤 *Nombre:* " +
+    nombre +
+    "\n" +
 
-                    "👤 *Nombre:* " +
-                    nombre +
-                    "\n\n" +
+    "🪪 *DNI:* " +
+    dni +
+    "\n" +
 
-                    "🪪 *DNI:* " +
-                    dni +
-                    "\n\n" +
+    "📱 *Teléfono:* " +
+    telefono +
+    "\n\n" +
 
-                    "📱 *Teléfono:* " +
-                    telefono +
-                    "\n\n" +
+    "👥 *Cantidad de lugares:* " +
+    cantidad +
+    "\n" +
 
-                    "👥 *Cantidad de lugares:* " +
-                    cantidad +
-                    "\n\n" +
+    "💰 *Total:* " +
+    formatearPrecio(total) +
+    "\n\n" +
 
-                    "💰 *Total:* " +
-                    formatearPrecio(total) +
-                    "\n\n" +
+    "💳 *DATOS PARA TRANSFERIR*\n\n" +
 
-                    "🏦 *Datos de transferencia:*\n\n" +
+    "🏦 *Alias:* riocristalino.viajes\n" +
+    "👤 *Titular:* Antonio Francisco Colomba\n\n" +
 
-                    "Alias: riocristalino.viajes\n" +
+    "📎 *Comprobante:* Pendiente de envío\n\n" +
 
-                    "Titular: Antonio Francisco Colomba\n\n" +
+    "━━━━━━━━━━━━━━━━━━━━\n" +
 
-                    "📌 *Estado:* Pendiente de comprobante de transferencia.\n\n" +
+    "✅ *Reserva iniciada correctamente.*\n" +
+    "📲 Enviá el comprobante por este medio para confirmar tu lugar.\n\n" +
 
-                    "¡Gracias por elegir Río Cristalino! 🚌";
-
+    "🚌 ¡Gracias por viajar con Río Cristalino!";
 
                 const urlWhatsApp =
                     "https://wa.me/" +
