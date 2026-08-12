@@ -1492,6 +1492,8 @@ document.addEventListener("DOMContentLoaded", function () {
     encodeURIComponent(
         mensajeWhatsApp
     );
+    console.log("MENSAJE WHATSAPP:", mensajeWhatsApp);
+console.log("URL WHATSAPP:", urlWhatsApp);
                 // ==========================================
                 // MENSAJE EN LA WEB
                 // ==========================================
