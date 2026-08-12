@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Río Cristalino | Viajes a Eventos</title>
+
+<meta
+    name="description"
+    content="Río Cristalino - Viajes desde Córdoba a fiestas electrónicas, recitales y festivales."
+>
+
+<link rel="stylesheet" href="CSS/style.css">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+>
+
+</head>
+
+<body>
+
+<!-- =========================
+     HEADER
+========================== -->
+
+<header class="header" id="inicio">
+
+
+<div class="logo">
+    RÍO CRISTALINO
+</div>
+
+<nav class="nav">
+
+    <a href="#inicio">Inicio</a>
+
+    <a href="#proximos">Próximos viajes</a>
+
+    <a href="#eventos">Eventos</a>
+
+    <a href="#electronica">Electrónica</a>
+
+    <a href="#recitales">Rock</a>
+
+    <a href="#festivales">Festivales</a>
+
+    <a href="#contacto">Contacto</a>
+
+</nav>
+
+
+</header>
+
+<!-- =========================
+     HERO
+========================== -->
+
+<main>
+
+<section class="hero">
+
+
+<div class="hero-content">
+
+    <p class="hero-small">
+        VIAJES DESDE CÓRDOBA
+    </p>
+
+    <h1>
+        EL EVENTO<br>
+        <span>EMPIEZA ANTES</span>
+    </h1>
+
+    <p class="hero-description">
+        Viajá a fiestas electrónicas,
+        recitales y festivales con
+        Río Cristalino.
+    </p>
+
+    <div class="hero-buttons">
+
+        <a href="#proximos" class="btn-primary">
+            VER PRÓXIMOS VIAJES
+        </a>
+
+        <a href="#contacto" class="btn-secondary">
+            CONTACTANOS
+        </a>
+
+    </div>
+
+</div>
+
+
+</section>
+
+<!-- =========================
+     PRÓXIMOS VIAJES
+========================== -->
+
+<section
+    id="proximos"
+    class="events-section upcoming-section"
+>
+
+
+<div class="section-title">
+
+    <p>RÍO CRISTALINO</p>
+
+    <h2>PRÓXIMOS VIAJES</h2>
+
+    <span>
+        Los próximos eventos, ordenados por fecha
+    </span>
+
+</div>
+
+<div
+    id="proximos-eventos-container"
+    class="upcoming-container"
+></div>
+
+
+</section>
+
+<!-- =========================
+     TODOS LOS EVENTOS
+========================== -->
+
+<section
+    id="eventos"
+    class="events-section all-events-section"
+>
+
+
+<div class="section-title">
+
+    <p>ELEGÍ TU EXPERIENCIA</p>
+
+    <h2>TODOS LOS EVENTOS</h2>
+
+    <span>
+        Encontrá tu próximo viaje
+    </span>
+
+</div>
+
+
+<!-- FILTROS -->
+
+<div class="event-filters">
+
+    <button
+        type="button"
+        class="filtro-evento activo"
+        data-filtro="todos"
+    >
+        TODOS
+    </button>
+
+    <button
+        type="button"
+        class="filtro-evento"
+        data-filtro="electronica"
+    >
+        ELECTRÓNICA
+    </button>
+
+    <button
+        type="button"
+        class="filtro-evento"
+        data-filtro="rock"
+    >
+        ROCK
+    </button>
+
+    <button
+        type="button"
+        class="filtro-evento"
+        data-filtro="festival"
+    >
+        FESTIVALES
+    </button>
+
+</div>
+
+
+<!-- EVENTOS -->
+
+<div
+    class="events-grid"
+    id="eventos-container"
+></div>
+
+
+</section>
+
+<!-- =========================
+     ELECTRÓNICA
+========================== -->
+
+<section
+    id="electronica"
+    class="category-section electronic-section"
+>
+
+
+<div class="category-content">
+
+    <p class="category-label">
+        RÍO CRISTALINO
+    </p>
+
+    <h2>
+        ELECTRONIC<br>
+        <span>TRIPS</span>
+    </h2>
+
+    <p>
+        Las mejores fiestas electrónicas
+        empiezan arriba del viaje.
+    </p>
+
+    <a
+        href="#eventos"
+        class="category-button"
+    >
+        VER FIESTAS
+    </a>
+
+</div>
+
+
+</section>
+
+<!-- =========================
+     ROCK
+========================== -->
+
+<section
+    id="recitales"
+    class="category-section rock-section"
+>
+
+
+<div class="category-content">
+
+    <p class="category-label">
+        RÍO CRISTALINO
+    </p>
+
+    <h2>
+        ROCK<br>
+        <span>TRIPS</span>
+    </h2>
+
+    <p>
+        Viajá con tus amigos a recitales
+        sin preocuparte por manejar.
+    </p>
+
+    <a
+        href="#eventos"
+        class="category-button"
+    >
+        VER RECITALES
+    </a>
+
+</div>
+
+
+</section>
+
+<!-- =========================
+     FESTIVALES
+========================== -->
+
+<section
+    id="festivales"
+    class="events-section festivals-section"
+>
+
+
+<div class="section-title">
+
+    <p>EXPERIENCIAS ESPECIALES</p>
+
+    <h2>FESTIVALES</h2>
+
+    <span>
+        Viajá a los grandes festivales
+    </span>
+
+</div>
+
+<div
+    id="festivales-container"
+    class="events-grid festivals-grid"
+></div>
+
+
+</section>
+
+<!-- =========================
+     CÓMO FUNCIONA
+========================== -->
+
+<section class="how-section">
+
+
+<div class="section-title">
+
+    <p>SIMPLE Y SEGURO</p>
+
+    <h2>¿CÓMO FUNCIONA?</h2>
+
+</div>
+
+
+<div class="steps">
+
+    <div class="step">
+
+        <span>01</span>
+
+        <h3>Elegí tu evento</h3>
+
+        <p>
+            Buscá la fiesta, recital
+            o festival al que querés viajar.
+        </p>
+
+    </div>
+
+
+    <div class="step">
+
+        <span>02</span>
+
+        <h3>Reservá tu lugar</h3>
+
+        <p>
+            Seleccioná la cantidad de
+            personas y completá tus datos.
+        </p>
+
+    </div>
+
+
+    <div class="step">
+
+        <span>03</span>
+
+        <h3>Subite y disfrutá</h3>
+
+        <p>
+            Recibí toda la información
+            del viaje y disfrutá del evento.
+        </p>
+
+    </div>
+
+</div>
+
+
+</section>
+
+<!-- =========================
+     CONTACTO
+========================== -->
+
+<section
+    id="contacto"
+    class="contact-section"
+>
+
+
+<div class="contact-content">
+
+    <p>
+        ¿TENÉS ALGUNA DUDA?
+    </p>
+
+    <h2>
+        HABLEMOS
+    </h2>
+
+    <p>
+        Contactanos por WhatsApp
+        o seguinos en Instagram.
+    </p>
+
+    <div class="contact-buttons">
+
+        <a
+            
+    href="https://wa.me/5493544448487"
+    target="_blank"
+    rel="noopener"
+    class="whatsapp-button"
+>
+    <i class="fa-brands fa-whatsapp"></i>
+    WHATSAPP
+</>
+
+        <a
+    href="https://www.instagram.com/transporteriocristalino/"
+    target="_blank"
+    rel="noopener"
+    class="instagram-button"
+>
+    <i class="fa-brands fa-instagram"></i>
+    INSTAGRAM
+</a>
+    </div>
+
+</div>
+
+
+</section>
+
+</main>
+
+<!-- =========================
+     MODAL DE RESERVA
+========================== -->
+
+<div
+    id="modalReserva"
+    class="modal-reserva"
+>
+
+
+<div class="modal-contenido">
+
+    <button
+        type="button"
+        class="cerrar-modal"
+    >
+        ×
+    </button>
+
+
+    <p class="modal-label">
+        RESERVÁ TU VIAJE
+    </p>
+
+
+    <h2 id="reservaEvento">
+        Evento
+    </h2>
+
+
+    <div class="reserva-info">
+
+        <p id="reservaFecha">
+            📅 Fecha
+        </p>
+
+        <p id="reservaLugar">
+            📍 Lugar
+        </p>
+
+        <p>
+            💰 Viaje por persona:
+            <strong id="reservaPrecio">
+                $0
+            </strong>
+        </p>
+
+    </div>
+
+
+    <!-- FORMULARIO -->
+
+    <form
+        id="formReserva"
+        class="form-reserva"
+    >
+
+
+        <!-- NOMBRE -->
+
+        <div class="campo">
+
+            <label for="nombre">
+                NOMBRE COMPLETO
+            </label>
+
+            <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="Ej: Juan Pérez"
+                required
+            >
+
+        </div>
+
+
+        <!-- DNI -->
+
+        <div class="campo">
+
+            <label for="dni">
+                DNI
+            </label>
+
+            <input
+                type="text"
+                id="dni"
+                name="dni"
+                placeholder="Ej: 40123456"
+                inputmode="numeric"
+                required
+            >
+
+        </div>
+
+
+        <!-- TELÉFONO -->
+
+        <div class="campo">
+
+            <label for="telefono">
+                TELÉFONO / WHATSAPP
+            </label>
+
+            <input
+                type="tel"
+                id="telefono"
+                name="telefono"
+                placeholder="Ej: 3544448487"
+                required
+            >
+
+        </div>
+
+
+        <!-- =========================
+             SELECTOR DE FECHA
+             SOLO SE MUESTRA PARA
+             EVENTOS CON VARIAS FECHAS
+        ========================== -->
+
+        <div
+            class="selector-fecha"
+            id="contenedorFecha"
+            style="display: none;"
+        >
+
+            <label for="fechaElegida">
+                FECHA DEL VIAJE
+            </label>
+
+            <select
+                id="fechaElegida"
+                name="fechaElegida"
+            ></select>
+
+        </div>
+
+
+        <!-- CANTIDAD -->
+
+        <div class="cantidad-reserva">
+
+            <span>
+                CANTIDAD DE LUGARES
+            </span>
+
+            <div class="cantidad-controles">
+
+                <button
+                    type="button"
+                    id="menos"
+                >
+                    −
+                </button>
+
+                <strong id="cantidad">
+                    1
+                </strong>
+
+                <button
+                    type="button"
+                    id="mas"
+                >
+                    +
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- CUPOS -->
+
+        <div class="cupos-info">
+
+            Quedan
+
+            <strong id="cupos">
+                0
+            </strong>
+
+            lugares disponibles.
+
+        </div>
+
+
+        <!-- TOTAL -->
+
+        <div class="reserva-total">
+
+            <span>
+                TOTAL
+            </span>
+
+            <strong id="total">
+                $0
+            </strong>
+
+        </div>
+
+
+        <!-- DATOS DE PAGO -->
+
+        <div class="datos-pago">
+
+            <p class="pago-titulo">
+                DATOS PARA TRANSFERIR
+            </p>
+
+            <p class="pago-alias">
+                Alias:
+                <strong>
+                    riocristalino.viajes
+                </strong>
+            </p>
+
+            <p class="pago-titular">
+                Titular:
+                <strong>
+                    Antonio Francisco Colomba
+                </strong>
+            </p>
+
+            <p class="pago-aclaracion">
+                Realizá la transferencia por el importe
+                total y luego enviá el comprobante por
+                WhatsApp para confirmar tu reserva.
+            </p>
+
+        </div>
+
+
+        <!-- BOTÓN -->
+
+        <button
+            type="submit"
+            class="btn-reservar"
+        >
+            RESERVAR
+        </button>
+
+
+        <!-- MENSAJE -->
+
+        <div
+            id="mensajeReserva"
+            class="mensaje-reserva"
+            style="display: none;"
+        ></div>
+
+
+    </form>
+
+</div>
+
+
+</div>
+
+<!-- =========================
+     POLÍTICAS
+========================== -->
+
+<section class="politicas">
+
+
+<div class="politicas-contenido">
+
+    <h2>
+        Políticas de reserva y privacidad
+    </h2>
+
+    <p>
+        La reserva queda confirmada una vez recibido
+        y verificado el comprobante de transferencia.
+    </p>
+
+    <p class="devolucion-destacada">
+        El dinero abonado podrá ser devuelto cuando
+        la cancelación sea solicitada hasta
+        <strong>
+            12 días corridos antes de la fecha del evento.
+        </strong>
+    </p>
+
+    <p>
+        Las cancelaciones realizadas dentro de los
+        12 días previos al evento no tendrán derecho
+        a devolución.
+    </p>
+
+    <p>
+        Los lugares se asignan según disponibilidad
+        y quedan sujetos a la confirmación del pago.
+    </p>
+
+    <p>
+        El comprobante deberá enviarse por WhatsApp
+        junto con los datos solicitados para confirmar
+        la reserva.
+    </p>
+
+    <p>
+        Los datos proporcionados serán utilizados
+        únicamente para gestionar la reserva,
+        organizar el viaje y comunicarnos con
+        el pasajero.
+    </p>
+
+</div>
+
+
+</section>
+
+<!-- =========================
+     FOOTER
+========================== -->
+
+<footer class="footer">
+
+<div class="footer-logo">
+    RÍO CRISTALINO
+</div>
+
+<p>
+    Viajes a fiestas, recitales y festivales.
+</p>
+
+
+
+
+</div>
+
+
+<div class="footer-bottom">
+
+    <p>
+        © 2026 Río Cristalino.
+        Todos los derechos reservados.
+    </p>
+
+</div>
+
+
+</footer>
+
+<!-- =========================
+     JAVASCRIPT
+========================== -->
+
+<!-- Librería de Supabase -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<!-- Conexión con Supabase -->
+<script src="js/supabase.js"></script>
+
+
+<!-- Sistema de eventos y reservas -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
