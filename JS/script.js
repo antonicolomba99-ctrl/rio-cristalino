@@ -1485,16 +1485,13 @@ document.addEventListener("DOMContentLoaded", function () {
     "📲 Enviá el comprobante por este medio para confirmar tu lugar.\n\n" +
 
     "🚌 ¡Gracias por viajar con Río Cristalino!";
-
-                const urlWhatsApp =
-                    "https://wa.me/" +
-                    numeroWhatsApp +
-                    "?text=" +
-                    encodeURIComponent(
-                        mensajeWhatsApp
-                    );
-
-
+    const urlWhatsApp =
+    "https://wa.me/" +
+    numeroWhatsApp +
+    "?text=" +
+    encodeURIComponent(
+        mensajeWhatsApp
+    );
                 // ==========================================
                 // MENSAJE EN LA WEB
                 // ==========================================
